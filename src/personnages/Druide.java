@@ -1,4 +1,4 @@
-package personnages;
+﻿package personnages;
 
 import java.util.Random;
 
@@ -31,6 +31,7 @@ public class Druide extends Gaulois {
 		} else {
 			gaulois.boirePotion(forcePotion);
 		}
+
 	}
 
 	@Override

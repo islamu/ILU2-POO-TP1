@@ -1,4 +1,4 @@
-package personnages;
+﻿package personnages;
 
 import villagegaulois.Village;
 
@@ -18,5 +18,6 @@ public class Chef extends Gaulois {
 	@Override
 	protected String prendreParole() {
 		return "Le chef " + nom + " du village " + village.getNom() + " : ";
+
 	}
 }

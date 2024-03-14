@@ -1,4 +1,4 @@
-package personnages;
+﻿package personnages;
 
 public class Personnage {
 	protected String nom;
@@ -22,6 +22,7 @@ public class Personnage {
 	@Override
 	public String toString() {
 		return "[nom=" + nom + ", force=" + force + "]";
+
 	}
 
 	public void parler(String texte) {
